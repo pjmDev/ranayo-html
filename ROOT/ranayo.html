@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html>
+
+   <head>
+      <title> RANAYO </title>
+	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	  
+	   <style type="text/css">
+	   @font-face { font-family: Nato Sans CJK KR Medium Medium; src: url('C:/Users/sq123/Desktop/RANAYO/deta/font/NotoSansCJKkr-Medium.otf');}
+	   @font-face { font-family: Nato Sans CJK KR Light Light; src: url('C:/Users/sq123/Desktop/RANAYO/deta/font/NotoSansCJKkr-Light.otf');}
+	    body {margin:0; padding:0; font-family:"Nato Sans CJK KR Medium Medium";, Dotum;}
+	    .topmenu ul {width:900px; height:80px; margin:0px; padding:0px; list-style:none;}
+        .topmenu ul li {float:left; height:80px; line-height:75px; padding-top:5px;}
+	    .topmenu ul li a{font-famliy:"Nato Sans CJK KR Medium Medium",Dotum; font-size:15px; color:black; text-decoration:none;}
+		.ralogin{font-size:13.5px; color:#8e8e8e;}  .ralogin{font-family:"Nato Sans CJK KR Light Light";, Dotum;}
+		.ralogin a{font-size:13.5px;color:#7c7c7c; text-decoration:none; } .ralogin a{font-family:"Nato Sans CJK KR Medium Medium";, Dotum;}
+		.ramainimg{background-image: url('C:/Users/sq123/Desktop/RANAYO/deta/img/mainimg01.jpg');no-repeat; background-size:100% 100%; alt="mainimg";}
+		.scrollmenu {position:fixed;}
+		.scrollmenu ul {width:1100px; height:45px; margin:0px; padding:0px; list-style:none;}
+        .scrollmenu ul li {float:left; height:45px; line-height:45px;}
+	    .scrollmenu ul li a{font-famliy:"Nato Sans CJK KR Medium Medium",Dotum; font-size:15px; color:black; text-decoration:none;}
+		
+	   	.content-slider ul{list-style: none outside none;    <!----------------------------lightslider------------------------------------->
+		    padding-left: 0;
+            margin: 0;}
+        .demo .item{margin-bottom: 60px;}
+		
+		.content-slider li{background-color: #8e8e8e; text-align: center; color: #FFF;}
+		.content-slider h3 {
+		    margin: 0;
+		    padding: 70px 0;}
+		.demo{width: 800px;}   <!----------------------------------lightslider---------------------------------->
+		
+       </style>
+	   
+	   <script type="text/javascript" src="./topmenutest_files/jquery-1.9.1.min.js.다운로드"></script>
+ <script type="text/javascript">
+ $(function(){
+var vi = 52;  // 하단에 메뉴 표시할 스크롤 위치값 지정
+$(window).scroll(function(){
+   var num = $(window).scrollTop();
+          if( num > vi ){
+                $(".scrollmenu").fadeIn(150);
+           }else{
+                $(".scrollmenu").fadeOut(0); }    });    });
+// display:none; (html)    position:fixed; (CSS)
+     </script>
+
+	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!--lightslider-->
+   <script src="../src/js/lightslider.js"></script> <!--lightslider-->
+    <script>
+    	 $(document).ready(function() {
+		 
+			$(".content-slider").lightSlider({
+				item:6,
+                loop:true,
+                keyPress:true,
+				speed:500,
+				auto:true,
+				pager: false
+            });
+  </script>
+	   
+   </head>
+ 
+  <body>
+   <div style="width:100%; height:100%;" > <!--strat -->
+   <!--------------------------------------------------------------------scrollmenu start--------------------------------------------------------------->
+		<div class="scrollmenu" style="width:100%; height45; background-color:white; border-bottom:1px solid; margin:0; display:none;"> 
+		   <div style="width:1100px; height45px; margin:0 auto;">
+		   	 <div style="width:195px; height:45px; float:left; " >
+			   <div style="width:140px; height:45px; margin:0 auto; " > <a href="#">
+			    <img src="C:/Users/sq123/Desktop/RANAYO/deta/img/logoscroll.png" 
+		                    width="140px" height="45px" alt="logo"></a></li></div>
+			    </div>
+			       <ul>
+                       <li style="margin-left:237px;"><a href="#">INTRODUCE</a></li>
+                       <li style="margin-left:36px;"><a href="#">힙합보부상</a></li>
+                       <li style="margin-left:36px;"><a href="#">CLIP</a></li>
+                       <li style="margin-left:36px;"><a href="#">COMMUNTIY</a></li>
+                       <li style="margin-left:36px;"><a href="#">EVENT</a></li>
+			     		 <!--SNS -->
+			     		 <li style="margin-left:70px; margin-top:7px">
+			   		        <a href="https://www.youtube.com/channel/UCx9jS0bSS_aziFqNq2sHz8Q" target="_blank"> 
+							 <img src="C:/Users/sq123/Desktop/RANAYO/deta/img/youtube.png" 
+		                     width="33px" height="33px" alt="YouTube icon"></a></li>
+					     <li style="margin-left:6px; margin-top:7px">
+						    <a href="#" target="_blank">
+					     <img src="C:/Users/sq123/Desktop/RANAYO/deta/img/inster.png" 
+		                    width="33px" height="33px" alt="Inster icon"></a></li>
+					     <li style="margin-left:5px; margin-top:7px">
+						   <a href="https://www.facebook.com/mozaranayo/" target="_blank">
+					     <img src="C:/Users/sq123/Desktop/RANAYO/deta/img/facebook.png" 
+		                    width="33px" height="33px" alt="Facebook icon"></a></li>
+			       </ul>
+			   </div>
+            </div>
+<!--------------------------------------------------------------------scrollmenu end---------------------------------------------------------------->
+ 
+       <div style="width:1100px; height:100px; margin:0 auto;"><!--top -->
+         <div style="width:200px; height:100px; float:left; text-align:center;"> 
+		   <a href="#"><img src="C:/Users/sq123/Desktop/RANAYO/deta/img/logo.png" 
+		    width="132px" height="100px" alt="logo"> </a>
+	     </div> <!--Logo -->
+	        <div class="topmenu" style="width:900px; height:100px; float:left;">
+	          <div style="width:900px; height:20px; text-align:right;">
+			    <div class="ralogin" style="width:300px; height:20px; float:right; text-align:right; 
+				                   padding-right:22px; padding-top:10px;"> 
+								   <a href="file:///C:/Users/sq123/Desktop/RANAYO/coding/login_page.html"> 로그인</a>&nbsp; I &nbsp;<a href="file:///C:/Users/sq123/Desktop/RANAYO/coding/join_page.html">회원가입</a>  </div>
+			  </div> <!--login-->
+		      <div class="topmenu" style="width:900px; height80px; overflow:hidden;">
+			    <ul>
+                     <li style="margin-left:232px;"><a href="#">INTRODUCE</a></li>
+                     <li style="margin-left:36px;"><a href="#">힙합보부상</a></li>
+                     <li style="margin-left:36px;"><a href="#">CLIP</a></li>
+                     <li style="margin-left:36px;"><a href="#">COMMUNTIY</a></li>
+                     <li style="margin-left:36px;"><a href="#">EVENT</a></li>
+					 <!--SNS -->
+					 <li style="margin-left:70px; margin-top:10px">
+					    <a href="https://www.youtube.com/channel/UCx9jS0bSS_aziFqNq2sHz8Q" target="_blank"> 
+						  <img src="C:/Users/sq123/Desktop/RANAYO/deta/img/youtube.png" 
+		                  width="33px" height="33px" alt="YouTube icon"></a></li>
+					 <li style="margin-left:6px; margin-top:10px">
+					     <a href="#" target="_blank">
+					     <img src="C:/Users/sq123/Desktop/RANAYO/deta/img/inster.png" 
+		                  width="33px" height="33px" alt="Inster icon"></a></li>
+					 <li style="margin-left:5px; margin-top:10px">
+					     <a href="https://www.facebook.com/mozaranayo/" target="_blank">
+					     <img src="C:/Users/sq123/Desktop/RANAYO/deta/img/facebook.png" 
+		                  width="33px" height="33px" alt="Facebook icon"></a></li>
+			    </ul>
+			  </div> <!--menu-->
+	        </div> <!--all menu-->
+		</div><!--top end -->
+
+ 	     <div class="ramainimg" style="width:100%; height:795px;" > </div> <!--main img -->
+		    <div style="width:100%; height:125px;"> </div> <!--blank1 -->
+		 <div style="width:1000px; height:300px; solid; margin:0 auto;">
+		     <a href="#"><img src="C:/Users/sq123/Desktop/RANAYO/deta/img/img1.png"> 
+			 </a> </div> <!--img1-->
+		 <div style="width:100%; height:125px;"> </div> <!--blank2 -->
+		 <div style="width:1000px; height:220px; solid; margin:0 auto; border:1px solid"> <!--lightslider-->
+		 	<div class="demo"> 
+        <div class="item">
+            <ul name="content-slider" class="content-slider">
+                <li>
+                    <h3>1</h3>
+                </li>
+                <li>
+                    <h3>2</h3>
+                </li>
+                <li>
+                    <h3>3</h3>
+                </li>
+                <li>
+                    <h3>4</h3>
+                </li>
+                <li>
+                    <h3>5</h3>
+                </li>
+                <li>
+                    <h3>6</h3>
+                </li>
+            </ul>
+        </div>
+    </div>	
+ 
+ 
+          </div> 
+		 <div style="width:1000px; height:400px; margin:0 auto;"> 
+		    <img src="C:/Users/sq123/Desktop/RANAYO/deta/img/blank3.png" 
+		     width="100%" height="100%" alt="background logo">
+		 </div> <!--blank3 -->
+
+   </div>  <!--end -->
+	
+   </body>
+  
+</html>
